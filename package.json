@@ -1,0 +1,28 @@
+{
+  "name": "logger-improved",
+  "version": "0.0.1",
+  "description": "Easily get the stack trace for errors, make logging great again.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.coffee --compilers coffee:coffee-script/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcktmds/logger-improved.git"
+  },
+  "keywords": [
+    "logger",
+    "info",
+    "error",
+    "stack"
+  ],
+  "author": "Seth Rhodes <seth.rhodes35@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pcktmds/logger-improved/issues"
+  },
+  "homepage": "https://github.com/pcktmds/logger-improved#readme",
+  "devDependencies": {
+    "coffee-script": "1.12.6"
+  }
+}
